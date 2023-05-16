@@ -165,18 +165,46 @@ plt.show(
 
 # Which City has Highest profit?
 
-![image](https://github.com/ssnithyaasri/Ex-08-Data-Visualization-/assets/119122478/d950f042-1651-41cb-b57e-b6d8668c5ac7)
+![image](https://github.com/ssnithyaasri/Ex-08-Data-Visualization-/assets/119122478/9debe29e-7abb-469f-9193-73cb063b3ae0)
+
 
 
 
 # Which ship mode is profitable?
 
-![image](https://github.com/ssnithyaasri/Ex-08-Data-Visualization-/assets/119122478/3ba1d2ca-ec8f-408a-bb2d-31995f65350f)
+![image](https://github.com/ssnithyaasri/Ex-08-Data-Visualization-/assets/119122478/cc319d3c-d524-4cb7-a751-95bee3cc6cdb)
 
 
-Sales of the product based on region
+# Sales of the product based on region
+
+![image](https://github.com/ssnithyaasri/Ex-08-Data-Visualization-/assets/119122478/bde36009-491c-44d0-bf9e-61b517482e24)
 
 
+# Find the relation between sales and profit
+
+![image](https://github.com/ssnithyaasri/Ex-08-Data-Visualization-/assets/119122478/17334c73-8f82-480b-a6fd-c2ca7e972bde)
+
+# Find the relation between sales and profit based on the following category.
+
+Segment
+
+![image](https://github.com/ssnithyaasri/Ex-08-Data-Visualization-/assets/119122478/57c2a617-a312-4f90-8562-523d424bd28c)
+
+City
+
+
+States
+
+![image](https://github.com/ssnithyaasri/Ex-08-Data-Visualization-/assets/119122478/b40029bb-4a06-4efa-9c30-2bebaf1ee99c)
+
+Segment and Ship Mode
+
+Segment, Ship mode and Region
+![image](https://github.com/ssnithyaasri/Ex-08-Data-Visualization-/assets/119122478/773bc48c-7f78-4851-8d72-a354abd6460d)
+
+# Result:
+
+Thus, Data Visualization is performed on the given dataset and save the data to a file
 
 
 

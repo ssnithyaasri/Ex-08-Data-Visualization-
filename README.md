@@ -146,7 +146,7 @@ pivot_data.plot(kind='bar', stacked=True, figsize=(10, 5))
 plt.xlabel('Segment - Ship Mode')
 plt.ylabel('Value')
 plt.legend(title='Region')
-plt.show(
+plt.show()
 
 # OUPUT
 
@@ -159,6 +159,9 @@ plt.show(
 ![image](https://github.com/ssnithyaasri/Ex-08-Data-Visualization-/assets/119122478/a23019d7-55fd-4809-92b0-25f91862e2ea)
 
 # Which Segment has Highest sales?
+
+![image](https://github.com/ssnithyaasri/Ex-08-Data-Visualization-/assets/119122478/a922cbfe-ca8a-4ec7-8889-caceeed1fe40)
+
 
 ![image](https://github.com/ssnithyaasri/Ex-08-Data-Visualization-/assets/119122478/42a73210-3e22-4603-bd9e-5969157152ec)
 
@@ -178,6 +181,8 @@ plt.show(
 # Sales of the product based on region
 
 ![image](https://github.com/ssnithyaasri/Ex-08-Data-Visualization-/assets/119122478/bde36009-491c-44d0-bf9e-61b517482e24)
+![image](https://github.com/ssnithyaasri/Ex-08-Data-Visualization-/assets/119122478/b92c06ed-b45b-4062-95be-48ffcc34632a)
+
 
 
 # Find the relation between sales and profit
@@ -192,6 +197,8 @@ Segment
 
 City
 
+![image](https://github.com/ssnithyaasri/Ex-08-Data-Visualization-/assets/119122478/cf5f5aae-35c5-453c-a86b-71a502f8e906)
+
 
 States
 
@@ -199,7 +206,13 @@ States
 
 Segment and Ship Mode
 
+![image](https://github.com/ssnithyaasri/Ex-08-Data-Visualization-/assets/119122478/13726121-c912-41bb-b299-faa9388ff3e9)
+
+
+
 Segment, Ship mode and Region
+
+
 ![image](https://github.com/ssnithyaasri/Ex-08-Data-Visualization-/assets/119122478/773bc48c-7f78-4851-8d72-a354abd6460d)
 
 # Result:

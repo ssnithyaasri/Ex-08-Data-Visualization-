@@ -21,6 +21,7 @@ Apply data visualization techniques to identify the patterns of the data.
 
 # Data Pre-Processing
 
+```
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -30,9 +31,11 @@ df
 df.isnull.sum()
 df.info()
 df.describe()
+```
 
 # Which Segment has Highest sales?
 
+```
 sns.lineplot(x="Segment",y="Sales",data=df,marker='o')
 plt.title("Segment vs Sales")
 plt.xticks(rotation = 90)
@@ -41,8 +44,10 @@ plt.show()
 sns.barplot(x="Segment",y="Sales",data=df)
 plt.xticks(rotation = 90)
 plt.show()
+```
 
 # Which City has Highest profit?
+```
 
 df.shape
 df1 = df[(df.Profit >= 60)]
@@ -88,7 +93,10 @@ df_corr.corr()
 sns.pairplot(df_corr, kind="scatter")
 plt.show()
 
+```
+
 # Segment
+```
 
 grouped_data = df.groupby('Segment')[['Sales', 'Profit']].mean()
 # Create a bar chart of the grouped data
@@ -99,9 +107,11 @@ ax.set_xlabel('Segment')
 ax.set_ylabel('Value')
 ax.legend()
 plt.show()
+```
 
 # City
 
+```
 grouped_data = df.groupby('City')[['Sales', 'Profit']].mean()
 # Create a bar chart of the grouped data
 fig, ax = plt.subplots()
@@ -111,9 +121,11 @@ ax.set_xlabel('City')
 ax.set_ylabel('Value')
 ax.legend()
 plt.show()
+```
 
 # States
 
+```
 grouped_data = df.groupby('State')[['Sales', 'Profit']].mean()
 # Create a bar chart of the grouped data
 fig, ax = plt.subplots()
@@ -124,8 +136,11 @@ ax.set_ylabel('Value')
 ax.legend()
 plt.show()
 
+```
+
 # Segment and Ship Mode
 
+```
 grouped_data = df.groupby(['Segment', 'Ship Mode'])[['Sales', 'Profit']].mean()
 pivot_data = grouped_data.reset_index().pivot(index='Segment', columns='Ship Mode', values=['Sales', 'Profit'])
 # Create a bar chart of the grouped data
@@ -136,8 +151,10 @@ ax.set_ylabel('Value')
 plt.legend(title='Ship Mode')
 plt.show()
 
+```
 # Segment, Ship mode and Region
 
+```
 grouped_data = df.groupby(['Segment', 'Ship Mode','Region'])[['Sales', 'Profit']].mean()
 pivot_data = grouped_data.reset_index().pivot(index=['Segment', 'Ship Mode'], columns='Region', values=['Sales', 'Profit'])
 sns.set_style("whitegrid")
@@ -147,6 +164,7 @@ plt.xlabel('Segment - Ship Mode')
 plt.ylabel('Value')
 plt.legend(title='Region')
 plt.show()
+```
 
 # OUPUT
 
@@ -224,6 +242,10 @@ Segment, Ship mode and Region
 # Result:
 
 Thus, Data Visualization is performed on the given dataset and save the data to a file
+
+
+
+
 
 
 

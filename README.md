@@ -158,12 +158,16 @@ plt.show()
 
 ![image](https://github.com/ssnithyaasri/Ex-08-Data-Visualization-/assets/119122478/a23019d7-55fd-4809-92b0-25f91862e2ea)
 
+![image](https://github.com/ssnithyaasri/Ex-08-Data-Visualization-/assets/119122478/42a73210-3e22-4603-bd9e-5969157152ec)
+
 # Which Segment has Highest sales?
 
 ![image](https://github.com/ssnithyaasri/Ex-08-Data-Visualization-/assets/119122478/a922cbfe-ca8a-4ec7-8889-caceeed1fe40)
 
+![image](https://github.com/ssnithyaasri/Ex-08-Data-Visualization-/assets/119122478/6c1ab8f4-962c-4c70-b0a8-f4b95c03bc30)
 
-![image](https://github.com/ssnithyaasri/Ex-08-Data-Visualization-/assets/119122478/42a73210-3e22-4603-bd9e-5969157152ec)
+
+
 
 
 # Which City has Highest profit?

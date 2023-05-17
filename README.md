@@ -199,7 +199,7 @@ plt.show()
 
 # Which ship mode is profitable?
 
-![image](https://github.com/ssnithyaasri/Ex-08-Data-Visualization-/assets/119122478/9debe29e-7abb-469f-9193-73cb063b3ae0
+![image](https://github.com/ssnithyaasri/Ex-08-Data-Visualization-/assets/119122478/9debe29e-7abb-469f-9193-73cb063b3ae0)
 
 
 # Sales of the product based on region

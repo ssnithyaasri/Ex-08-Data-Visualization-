@@ -61,17 +61,17 @@ plt.xticks(rotation = 90)
 plt.xlabel=("City")
 plt.ylabel=("Profit")
 plt.show()
-
+```
 # Which ship mode is profitable?
-
+```
 sns.barplot(x="Ship Mode",y="Profit",data=df)
 plt.show()
 
 sns.lineplot(x="Ship Mode",y="Profit",data=df)
 plt.show()
-
+```
 # Sales of the product based on region.
-
+```
 states=df.loc[:,["Region","Sales"]]
 states=states.groupby(by=["Region"]).sum().sort_values(by="Sales")
 sns.barplot(x=states.index,y="Sales",data=states)
@@ -81,9 +81,9 @@ plt.ylabel=("Sales")
 plt.show()
 
 df.groupby(['Region']).sum().plot(kind='pie', y='Sales',figsize=(6,9),pctdistance=1.7,labeldistance=1.2)
-
+```
 # Find the relation between sales and profit.
-
+```
 df["Sales"].corr(df["Profit"])
 
 df_corr = df.copy()

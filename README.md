@@ -192,7 +192,6 @@ plt.show()
 
 ![image](https://github.com/ssnithyaasri/Ex-08-Data-Visualization-/assets/119122478/cc319d3c-d524-4cb7-a751-95bee3cc6cdb)
 
-![image](https://github.com/ssnithyaasri/Ex-08-Data-Visualization-/assets/119122478/9debe29e-7abb-469f-9193-73cb063b3ae0)
 
 
 
